@@ -15,6 +15,12 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
+    <!-- Interactive Background Overlays -->
+    <div class="noise-overlay"></div>
+    <div id="scroll-progress"></div>
+    <canvas id="particle-canvas"></canvas>
+    <div id="cursor-spotlight"></div>
+
     <!-- Background Elements for Glassmorphism -->
     <div class="blob blob-1"></div>
     <div class="blob blob-2"></div>
@@ -129,7 +135,7 @@
                 <div class="header-line"></div>
             </div>
             <div class="project-grid">
-                <div class="project-card glass fade-in">
+                <div class="project-card tilt-card glass fade-in">
                     <div class="project-tags">
                         <span class="tag">AI/ML</span>
                         <span class="tag">LLMs</span>
@@ -138,7 +144,7 @@
                     <h3 class="project-title">Apex-Secure (Team Project)</h3>
                     <p class="project-desc">An AI-Powered Unified Cyber Defence Platform for Proactive Threat Detection featuring 10 security modules including deepfake detection, document tampering detection, malware app detection, and payment fraud detection leveraging LLMs.</p>
                 </div>
-                <div class="project-card glass fade-in delay-1">
+                <div class="project-card tilt-card glass fade-in delay-1">
                     <div class="project-tags">
                         <span class="tag">Flutter</span>
                         <span class="tag">Dart</span>
@@ -146,14 +152,14 @@
                     <h3 class="project-title">Google Translate Clone</h3>
                     <p class="project-desc">A feature-rich translation mobile app with capabilities including text translation, speech-to-text, text-to-speech, and image-to-text (OCR) for extracting text from uploaded images.</p>
                 </div>
-                <div class="project-card glass fade-in delay-2">
+                <div class="project-card tilt-card glass fade-in delay-2">
                     <div class="project-tags">
                         <span class="tag">Python</span>
                     </div>
                     <h3 class="project-title">Steganography Tool</h3>
                     <p class="project-desc">A tool to hide secret messages inside various file formats including audio, video, PDF, DOCX, and plain text files using advanced steganographic techniques.</p>
                 </div>
-                <div class="project-card glass fade-in">
+                <div class="project-card tilt-card glass fade-in">
                     <div class="project-tags">
                         <span class="tag">Python</span>
                         <span class="tag">HTML</span>
@@ -184,7 +190,7 @@
                 <div class="header-line"></div>
             </div>
             <div class="project-grid">
-                <div class="project-card glass fade-in">
+                <div class="project-card tilt-card glass fade-in">
                     <div class="project-tags">
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
@@ -198,7 +204,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="project-card glass fade-in delay-1">
+                <div class="project-card tilt-card glass fade-in delay-1">
                     <div class="project-tags">
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
@@ -212,7 +218,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="project-card glass fade-in delay-2">
+                <div class="project-card tilt-card glass fade-in delay-2">
                     <div class="project-tags">
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
@@ -226,7 +232,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="project-card glass fade-in">
+                <div class="project-card tilt-card glass fade-in">
                     <div class="project-tags">
                         <span class="tag">HTML</span>
                         <span class="tag">CSS</span>
@@ -250,7 +256,7 @@
                 <div class="header-line"></div>
             </div>
             <div class="skills-container">
-                <div class="skill-category glass fade-in">
+                <div class="skill-category tilt-card glass fade-in">
                     <h3 class="skill-cat-title"><i class='bx bx-terminal'></i> Technical Skills</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Python</span>
@@ -265,7 +271,7 @@
                         <span class="skill-tag">Ethical Hacking</span>
                     </div>
                 </div>
-                <div class="skill-category glass fade-in delay-1">
+                <div class="skill-category tilt-card glass fade-in delay-1">
                     <h3 class="skill-cat-title"><i class='bx bx-group'></i> Soft Skills</h3>
                     <div class="skill-tags alt-tags">
                         <span class="skill-tag">Teamwork</span>
@@ -289,7 +295,7 @@
                 <div class="header-line"></div>
             </div>
             <div class="edu-flex">
-                <div class="edu-card glass fade-in">
+                <div class="edu-card tilt-card glass fade-in">
                     <div class="edu-icon"><i class='bx bxs-institution'></i></div>
                     <div class="edu-content">
                         <h3 class="edu-degree">B.E. — Computer Science & Engineering (Cyber Security)</h3>
