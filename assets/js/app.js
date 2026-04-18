@@ -25,6 +25,22 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Close menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
+            navLinks.classList.remove('active');
+            menuIcon.classList.replace('bx-x', 'bx-menu');
+        }
+    });
+
+    // Close menu on scroll
+    window.addEventListener('scroll', () => {
+        if (navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+            menuIcon.classList.replace('bx-x', 'bx-menu');
+        }
+    });
+
     /* ==========================================
        Intersection Observer for Fade-In Effects
        ========================================== */
