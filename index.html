@@ -137,12 +137,28 @@
             <div class="project-grid">
                 <div class="project-card tilt-card glass fade-in">
                     <div class="project-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">AI/ML</span>
+                    </div>
+                    <div class="project-badge">Currently Working On</div>
+                    <h3 class="project-title">JARVIS</h3>
+                    <p class="project-desc">An AI-powered, privacy-first bidirectional communication assistant designed to bridge the gap between sign-language users and hearing individuals. Translates gesture landmarks into natural language sentences using LLMs and safety guardrails, and maps speech back into sign language representations via an animated avatar.</p>
+                </div>
+                <div class="project-card tilt-card glass fade-in">
+                    <div class="project-tags">
                         <span class="tag">AI/ML</span>
                         <span class="tag">LLMs</span>
                         <span class="tag">Web Dev</span>
                     </div>
                     <h3 class="project-title">Apex-Secure (Team Project)</h3>
                     <p class="project-desc">An AI-Powered Unified Cyber Defence Platform for Proactive Threat Detection featuring 10 security modules including deepfake detection, document tampering detection, malware app detection, and payment fraud detection leveraging LLMs.</p>
+                    <div class="project-links">
+                        <a href="https://apex-secure.netlify.app/" target="_blank" class="project-link-btn">
+                            <i class='bx bx-link-external'></i> Live Demo
+                        </a>
+                    </div>
                 </div>
                 <div class="project-card tilt-card glass fade-in delay-1">
                     <div class="project-tags">
@@ -155,9 +171,15 @@
                 <div class="project-card tilt-card glass fade-in delay-2">
                     <div class="project-tags">
                         <span class="tag">Python</span>
+                        <span class="tag">Cryptography</span>
                     </div>
                     <h3 class="project-title">Steganography Tool</h3>
-                    <p class="project-desc">A tool to hide secret messages inside various file formats including audio, video, PDF, DOCX, and plain text files using advanced steganographic techniques.</p>
+                    <p class="project-desc">A command-line security utility utilizing custom LSB (Least Significant Bit) algorithms and structural metadata embedding to conceal secret payload messages inside a variety of target media file containers without altering their visual or auditory quality.</p>
+                    <div class="project-features">
+                        <span class="feat-item"><i class='bx bx-music'></i> Audio (WAV/MP3)</span>
+                        <span class="feat-item"><i class='bx bx-video'></i> Video (MP4)</span>
+                        <span class="feat-item"><i class='bx bx-file-pdf'></i> PDF & DOCX</span>
+                    </div>
                 </div>
                 <div class="project-card tilt-card glass fade-in">
                     <div class="project-tags">
@@ -251,41 +273,170 @@
 
         <!-- Skills Section -->
         <section id="skills" class="skills-section">
-            <div class="section-header fade-in">
-                <h2><i class='bx bx-brain'></i> Skills & Expertise</h2>
-                <div class="header-line"></div>
+            <div class="section-header fade-in" style="text-align: center;">
+                <h2 style="justify-content: center;">Technical Skills</h2>
+                <div class="header-line" style="margin: 10px auto;"></div>
             </div>
+            <p class="section-subtitle fade-in delay-1">A blend of systems knowledge, AI capability, and security expertise.</p>
+            
             <div class="skills-container">
+                <!-- Languages -->
                 <div class="skill-category tilt-card glass fade-in">
-                    <h3 class="skill-cat-title"><i class='bx bx-terminal'></i> Technical Skills</h3>
+                    <div class="skill-header">
+                        <div class="skill-icon-box"><i class='bx bx-code-alt'></i></div>
+                        <h3>Languages</h3>
+                    </div>
                     <div class="skill-tags">
                         <span class="skill-tag">Python</span>
-                        <span class="skill-tag">C / C++</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
                         <span class="skill-tag">Java</span>
-                        <span class="skill-tag">HTML & CSS</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React (Basics)</span>
-                        <span class="skill-tag">Flutter & Dart</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">Kali Linux</span>
-                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Dart</span>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Python</span><span>85%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>C / C++</span><span>75%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Java</span><span>65%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 65%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Dart</span><span>65%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 65%;"></div></div>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Web & Databases -->
                 <div class="skill-category tilt-card glass fade-in delay-1">
-                    <h3 class="skill-cat-title"><i class='bx bx-group'></i> Soft Skills</h3>
-                    <div class="skill-tags alt-tags">
-                        <span class="skill-tag">Teamwork</span>
-                        <span class="skill-tag">Problem-Solving</span>
-                        <span class="skill-tag">Communication</span>
-                        <span class="skill-tag">Leadership</span>
-                        <span class="skill-tag">Critical Thinking</span>
-                        <span class="skill-tag">Analytical Thinking</span>
-                        <span class="skill-tag">Time Management</span>
-                        <span class="skill-tag">Attention to Detail</span>
-                        <span class="skill-tag">Adaptability</span>
+                    <div class="skill-header">
+                        <div class="skill-icon-box"><i class='bx bx-globe'></i></div>
+                        <h3>Web & Databases</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>HTML/CSS/JS</span><span>80%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MySQL</span><span>70%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MongoDB</span><span>60%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 60%;"></div></div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
+                <!-- AI & Vision -->
+                <div class="skill-category tilt-card glass fade-in delay-2">
+                    <div class="skill-header">
+                        <div class="skill-icon-box" style="color: #ff3366; background: rgba(255, 51, 102, 0.1); box-shadow: 0 0 15px rgba(255, 51, 102, 0.2);"><i class='bx bx-bot'></i></div>
+                        <h3>AI & Vision</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="background: rgba(255, 51, 102, 0.05); border-color: rgba(255, 51, 102, 0.2); color: #ff3366;">Computer Vision</span>
+                        <span class="skill-tag" style="background: rgba(255, 51, 102, 0.05); border-color: rgba(255, 51, 102, 0.2); color: #ff3366;">Generative AI</span>
+                        <span class="skill-tag" style="background: rgba(255, 51, 102, 0.05); border-color: rgba(255, 51, 102, 0.2); color: #ff3366;">OpenCV</span>
+                        <span class="skill-tag" style="background: rgba(255, 51, 102, 0.05); border-color: rgba(255, 51, 102, 0.2); color: #ff3366;">Vibe Coding</span>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Computer Vision</span><span>78%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 78%; background: linear-gradient(90deg, #ff3366, #ff9933); box-shadow: 0 0 10px rgba(255, 51, 102, 0.5);"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Gen AI</span><span>72%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 72%; background: linear-gradient(90deg, #ff3366, #ff9933); box-shadow: 0 0 10px rgba(255, 51, 102, 0.5);"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cybersecurity -->
+                <div class="skill-category tilt-card glass fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon-box" style="color: #ff9900; background: rgba(255, 153, 0, 0.1); box-shadow: 0 0 15px rgba(255, 153, 0, 0.2);"><i class='bx bx-lock-alt'></i></div>
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="background: rgba(255, 153, 0, 0.05); border-color: rgba(255, 153, 0, 0.2); color: #ff9900;">Network Security</span>
+                        <span class="skill-tag" style="background: rgba(255, 153, 0, 0.05); border-color: rgba(255, 153, 0, 0.2); color: #ff9900;">Kali Linux</span>
+                        <span class="skill-tag" style="background: rgba(255, 153, 0, 0.05); border-color: rgba(255, 153, 0, 0.2); color: #ff9900;">Ethical Hacking</span>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Ethical Hacking</span><span>75%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%; background: linear-gradient(90deg, #ff9900, #ff3366); box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Kali Linux</span><span>70%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%; background: linear-gradient(90deg, #ff9900, #ff3366); box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>OWASP / Threat Analysis</span><span>65%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 65%; background: linear-gradient(90deg, #ff9900, #ff3366); box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skill-category tilt-card glass fade-in delay-1">
+                    <div class="skill-header">
+                        <div class="skill-icon-box" style="color: #00b0ff; background: rgba(0, 176, 255, 0.1); box-shadow: 0 0 15px rgba(0, 176, 255, 0.2);"><i class='bx bx-layer'></i></div>
+                        <h3>Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="background: rgba(0, 176, 255, 0.05); border-color: rgba(0, 176, 255, 0.2); color: #00b0ff;">React</span>
+                        <span class="skill-tag" style="background: rgba(0, 176, 255, 0.05); border-color: rgba(0, 176, 255, 0.2); color: #00b0ff;">Flutter</span>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Flutter</span><span>75%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%; background: linear-gradient(90deg, #00b0ff, #7000ff); box-shadow: 0 0 10px rgba(0, 176, 255, 0.5);"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>React</span><span>60%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 60%; background: linear-gradient(90deg, #00b0ff, #7000ff); box-shadow: 0 0 10px rgba(0, 176, 255, 0.5);"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core CS -->
+                <div class="skill-category tilt-card glass fade-in delay-1">
+                    <div class="skill-header">
+                        <div class="skill-icon-box" style="color: #00e676; background: rgba(0, 230, 118, 0.1); box-shadow: 0 0 15px rgba(0, 230, 118, 0.2);"><i class='bx bx-cog'></i></div>
+                        <h3>Core CS</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag" style="background: rgba(0, 230, 118, 0.05); border-color: rgba(0, 230, 118, 0.2); color: #00e676;">Data Structures</span>
+                        <span class="skill-tag" style="background: rgba(0, 230, 118, 0.05); border-color: rgba(0, 230, 118, 0.2); color: #00e676;">DBMS</span>
+                        <span class="skill-tag" style="background: rgba(0, 230, 118, 0.05); border-color: rgba(0, 230, 118, 0.2); color: #00e676;">Operating Systems</span>
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-info"><span>DSA</span><span>80%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%; background: linear-gradient(90deg, #00e676, #00b0ff); box-shadow: 0 0 10px rgba(0, 230, 118, 0.5);"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>DBMS</span><span>75%</span></div>
+                            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%; background: linear-gradient(90deg, #00e676, #00b0ff); box-shadow: 0 0 10px rgba(0, 230, 118, 0.5);"></div></div>
+                        </div>
+                    </div>
+                </div>
         </section>
 
         <!-- Education & Certifications Section -->
@@ -309,14 +460,18 @@
                 <div class="certs-container glass fade-in delay-1">
                     <h3 class="certs-title">Certifications</h3>
                     <ul class="certs-list">
+                        <li><i class='bx bx-badge-check'></i> Introduction to MongoDB - MongoDB (2024)</li>
                         <li><i class='bx bx-badge-check'></i> Python for Data Science (Elite + Silver) - NPTEL (2025)</li>
                         <li><i class='bx bx-badge-check'></i> Cloud Architect - AWS (2025)</li>
                         <li><i class='bx bx-badge-check'></i> Practical Cyber Security for Practitioners - NPTEL (2025)</li>
                         <li><i class='bx bx-badge-check'></i> Blockchain and Its Applications - NPTEL (2025)</li>
-                        <li><i class='bx bx-badge-check'></i> MongoDB Basics & Intro - MongoDB (2024/2025)</li>
-                        <li><i class='bx bx-badge-check'></i> Full Stack Development & Ethical Hacking - Udemy (2026)</li>
-                        <li><i class='bx bx-badge-check'></i> Claude Code & AI Fluency - Anthropic Education (2026)</li>
+                        <li><i class='bx bx-badge-check'></i> MongoDB Basics for Students - MongoDB (2025)</li>
+                        <li><i class='bx bx-badge-check'></i> Full Stack Development - Udemy (2026)</li>
+                        <li><i class='bx bx-badge-check'></i> Ethical Hacking  basics- Udemy (2026)</li>
+                        <li><i class='bx bx-badge-check'></i> Claude Code in action - Anthropic Education (2026)</li>
+                        <li><i class='bx bx-badge-check'></i> AI Fluency for students - Anthropic Education (2026)</li>
                         <li><i class='bx bx-badge-check'></i> Rising Star Automation - Celonis Academy (2026)</li>
+                        <li><i class='bx bx-badge-check'></i> Introduction to Natural Language Processing - Infosys Springboard (2026)</li>
                     </ul>
                 </div>
             </div>
